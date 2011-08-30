@@ -34,7 +34,7 @@
 #require_recipe "resque"
 
 #uncomment to run the redis recipe
-require_recipe "redis"
+#require_recipe "redis"
 
 #require_recipe "logrotate"
 #
@@ -56,3 +56,6 @@ require_recipe "redis"
 
 # Delayed Job
 require_recipe "delayed_job"
+
+# Custom redis recipe
+require_recipe "redis_nutmeg"
