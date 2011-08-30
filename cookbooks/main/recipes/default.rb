@@ -56,6 +56,3 @@
 
 # Delayed Job
 require_recipe "delayed_job"
-
-# Custom redis recipe
-require_recipe "redis_nutmeg"
