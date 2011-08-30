@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: redis
+# Cookbook Name:: redis_nutmeg
 # Recipe:: default
 #
 
