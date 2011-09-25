@@ -54,5 +54,13 @@
 # additional configuration of this recipe is required
 #require_recipe "mysql_administrative_tools"
 
+#enable contrib modules for a given Postgresql9 database
+# if ['solo','db_master'].include?(node[:instance_role])
+#   postgresql9_autoexplain "postgres_test"
+#   postgresql9_chkpass "postgres_test"
+#   postgresql9_postgis "postgres_test"
+# end
+
 # Delayed Job
 require_recipe "delayed_job"
+
